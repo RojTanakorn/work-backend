@@ -1,0 +1,79 @@
+body {
+  font-family: "Chivo";
+  background-color: rgb(3, 57, 108);
+  text-align: center;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  text-decoration: none;
+  padding: 20px;
+  margin: 10px 10px 50px 10px;
+  border-radius: 10px;
+  border: 2px rgb(1, 31, 75) solid;
+  color: rgb(1, 31, 75);
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(228, 244, 255);
+  font-size: 5.5vw;
+  font-weight: bold;
+}
+
+.button-page {
+  padding: 2%;
+  position: absolute;
+  margin: 0;
+  font-size: 3.6vw;
+}
+
+.button-left {
+  left: 10%;
+}
+
+.button-right {
+  right: 10%;
+}
+
+h1,
+h3,
+h4 {
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 4vw;
+}
+
+h4 {
+  margin: 50px;
+}
+
+.container {
+  font-size: 5vw;
+  margin: 40px 40px 0 40px;
+  padding-top: 50px;
+}
+
+.containparking {
+  margin: 10px 10% 0 10%;
+}
+
+.buttonconparking {
+  margin: 3% 10% 0%;
+}
+
+#rstbtn {
+  background-color: crimson;
+  color: white;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 1.5%;
+  margin-top: 2%;
+  width: 100%;
+  font-weight: bold;
+}

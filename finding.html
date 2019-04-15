@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/modalstyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Chivo"
+      rel="stylesheet"
+    />
+    <title>Finding</title>
+  </head>
+  <body onload="handleParking(2)">
+    <h3>Mark your position</h3>
+    <div class="containparking" style="font-size: 0">
+      <img id="topPark" src="Pic/7aval_1.jpg" alt="top image" width="100%" />
+      <img id="midPark" src="Pic/6aval_1.jpg" alt="middle image" width="100%" />
+      <img id="botPark" src="Pic/2aval_1.jpg" alt="bottom image" width="100%" />
+      <button id="rstbtn" onclick="resetPosition()">RESET</button>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modaltext"></p>
+          <button
+            class="modalbtn"
+            style="background-color: rgb(139, 218, 255)"
+            onclick="handleMark(1)"
+          >
+            YES
+          </button>
+          <button
+            class="modalbtn"
+            style="background-color: rgb(206, 206, 206)"
+            onclick="handleMark(0)"
+          >
+            NO
+          </button>
+        </div>
+      </div>
+
+      <div class="buttonconparking">
+        <a href="parking.html" class="button button-page button-left"
+          >Back to parking page</a
+        >
+        <a href="index.html" class="button button-page button-right"
+          >Back to main page</a
+        >
+      </div>
+    </div>
+
+    <script src="parkingScript.js"></script>
+    <script src="findingScript.js"></script>
+  </body>
+</html>
